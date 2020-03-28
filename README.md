@@ -2,7 +2,7 @@
 
 [![](https://jitpack.io/v/serhaterfidan/FDAlertPopup.svg)](https://jitpack.io/#serhaterfidan/FDAlertPopup)
 
-[![Image from Gyazo](https://i.gyazo.com/f54086aa8cad08cc08f4a3f0b774cba4.gif)](https://gyazo.com/f54086aa8cad08cc08f4a3f0b774cba4)
+[![Image from Gyazo](https://i.gyazo.com/f9204079e1a15a076290bb1a7ef31ee6.gif)](https://gyazo.com/f9204079e1a15a076290bb1a7ef31ee6)
 [![Image from Gyazo](https://i.gyazo.com/192ef001267fa75cfec2732b52811c5f.gif)](https://gyazo.com/192ef001267fa75cfec2732b52811c5f)
 [![Image from Gyazo](https://i.gyazo.com/e9928eade508ca4f5eddb91bf5ae8845.gif)](https://gyazo.com/e9928eade508ca4f5eddb91bf5ae8845)
 

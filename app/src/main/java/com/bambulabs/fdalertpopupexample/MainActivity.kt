@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             .setTitleText("Title")
             .setContentText("Content")
             .setPopupBackgroundColor(Color.YELLOW)
-            .setConfirmButtonText("ConfirmConfirmConfirmConfirm")
+            .setConfirmButtonText("OK")
             .setConfirmAction { showCustomPopupWithResource() }
             .show()
 
