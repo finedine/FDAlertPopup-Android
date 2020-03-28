@@ -37,7 +37,6 @@ Step 2. Add the dependency
 
 ## Usage
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
