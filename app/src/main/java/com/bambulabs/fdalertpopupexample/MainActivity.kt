@@ -32,10 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         FDAlertPopup(this)
             .setLottieResource(R.raw.success2)
-            .setTitleText("Title")
-            .setPopupBackgroundColor(Color.BLACK)
-            .setContentText("Content")
-            .setConfirmButtonText("Try again")
+            .setPopupBackgroundColor(Color.WHITE)
             .setConfirmAction { showCustomPopupWithResource() }
             .show()
 
