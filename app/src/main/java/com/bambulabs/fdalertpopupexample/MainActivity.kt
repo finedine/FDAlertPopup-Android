@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
     private fun showCustomPopupWithLottie() {
 
         FDAlertPopup(this)
-            //.setLottieResource(R.raw.splash)
+            .setLottieResource(R.raw.success2)
             .setTitleText("Title")
             .setPopupBackgroundColor(Color.BLACK)
             .setContentText("Content")
