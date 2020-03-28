@@ -2,6 +2,10 @@
 
 [![](https://jitpack.io/v/serhaterfidan/FDAlertPopup.svg)](https://jitpack.io/#serhaterfidan/FDAlertPopup)
 
+![ss1](https://github.com/serhaterfidan/FDAlertPopup/blob/master/screenshots/ss1.png)
+![ss2](https://github.com/serhaterfidan/FDAlertPopup/blob/master/screenshots/ss1.png)
+![ss3](https://github.com/serhaterfidan/FDAlertPopup/blob/master/screenshots/ss1.png)
+
 ## Overview
 
 * Version :1.0
@@ -31,8 +35,8 @@ Step 2. Add the dependency
 	
 ## Support thanks :
 
-* Lottie (https://github.com/airbnb/lottie-android)
-* StateButton (https://github.com/niniloveyou/StateButton)
+* [Lottie](https://github.com/airbnb/lottie-android)
+* [StateButton](https://github.com/niniloveyou/StateButton)
 
 ## Developed By
 
