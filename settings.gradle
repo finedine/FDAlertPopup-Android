@@ -1,0 +1,2 @@
+include ':app', ':fdalertpopup'
+rootProject.name='FDAlertPopupExample'

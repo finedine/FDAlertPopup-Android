@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#E6034B</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transperantcolor">#80000000</color>
+    <color name="transperant">#00000000</color>
+    <color name="pressedAlpha">#90000000</color>
+    <color name="itemdetailtext">#002573</color>
+    <color name="itemdetailbutton">#5072B7</color>
+    <color name="welcomecolor">#333C4E</color>
+    <color name="maximumColor">#FF2B95</color>
+    <color name="disabled">#C4C4C4</color>
+    <color name="minus">#C8C8C8</color>
+    <color name="introskip">#C6CBDA</color>
+    <color name="ticketColor">#828282</color>
+    <color name="colorLine">#dfdfdf</color>
+    <color name="textColor">#333</color>
+    <color name="titleColor">#6A6A6A</color>
+    <color name="lineColor">#BDBDBD</color>
+    <color name="edittextFrameColor">#4D333333</color>
+    <color name="editTextColor">#4F4F4F</color>
+</resources>

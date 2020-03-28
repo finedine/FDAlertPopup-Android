@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsizeXXXSmall">6sp</dimen>
+    <dimen name="textsizeXXSmall">9sp</dimen>
+    <dimen name="textsizeXSmall">12sp</dimen>
+    <dimen name="textsizeYSmall">13sp</dimen>
+    <dimen name="textsizeSmall">16sp</dimen>
+    <dimen name="textsizeMedium">18sp</dimen>
+    <dimen name="textsizeLarge">21sp</dimen>
+    <dimen name="textsizeXLarge">24sp</dimen>
+    <dimen name="textsizeXXLarge">30sp</dimen>
+    <dimen name="textsizeXXXLarge">34sp</dimen>
+
+    <dimen name="placeholder">18px</dimen>
+    <dimen name="button">20px</dimen>
+    <dimen name="highlight">16px</dimen>
+    <dimen name="body3">24px</dimen>
+    <dimen name="body2">16px</dimen>
+    <dimen name="body1">20px</dimen>
+    <dimen name="title5">16px</dimen>
+    <dimen name="title4">18px</dimen>
+    <dimen name="title3">24px</dimen>
+    <dimen name="title2">28px</dimen>
+    <dimen name="title1">32px</dimen>
+
+    <dimen name="language">19px</dimen>
+
+</resources>
