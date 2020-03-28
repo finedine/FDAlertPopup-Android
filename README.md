@@ -10,11 +10,6 @@
 
 * Language : Kotlin
 
-Support thanks :
-
-* Lottie (https://github.com/airbnb/lottie-android)
-* StateButton (https://github.com/niniloveyou/StateButton)
-
 To get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
@@ -33,6 +28,11 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.serhaterfidan:FDAlertPopup:-SNAPSHOT'
 	}
+	
+## Support thanks :
+
+* Lottie (https://github.com/airbnb/lottie-android)
+* StateButton (https://github.com/niniloveyou/StateButton)
 
 ## Developed By
 
