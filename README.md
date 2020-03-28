@@ -10,10 +10,10 @@
 
 * Language : Kotlin
 
-Using technologies :
+Support thanks :
+
 * Lottie (https://github.com/airbnb/lottie-android)
 * StateButton (https://github.com/niniloveyou/StateButton)
-* Ktx (Kotlin Extensions)
 
 To get a Git project into your build:
 
