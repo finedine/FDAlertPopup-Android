@@ -2,9 +2,9 @@
 
 [![](https://jitpack.io/v/serhaterfidan/FDAlertPopup.svg)](https://jitpack.io/#serhaterfidan/FDAlertPopup)
 
+![ss3](https://github.com/serhaterfidan/FDAlertPopup/blob/master/screenshots/ss3.png)
 ![ss1](https://github.com/serhaterfidan/FDAlertPopup/blob/master/screenshots/ss1.png)
 ![ss2](https://github.com/serhaterfidan/FDAlertPopup/blob/master/screenshots/ss2.png)
-![ss3](https://github.com/serhaterfidan/FDAlertPopup/blob/master/screenshots/ss3.png)
 
 ## Overview
 
