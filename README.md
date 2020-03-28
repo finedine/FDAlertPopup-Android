@@ -120,7 +120,7 @@ Step 2. Add the dependency
 
 ## License
 
-[Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+* [Apache Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 
     Copyright 2019 FDAlertPopup
     
