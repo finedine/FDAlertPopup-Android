@@ -84,6 +84,30 @@ Step 2. Add the dependency
             .show()
 
     }
+
+## Configurations
+
+    * @param resource // popup custom image resource
+    * @param lottieResource // popup custom lottie resource
+    * @param titleText // popup title text
+    * @param contentText // popup content text
+    * @param confirmButtonText // confirm button text
+    * @param cancelButtonText // cancel button text
+    * @param popupBackgroundColor // popup background color
+    * @param confirmButtonNormalColor // confirm button normal color
+    * @param confirmButtonNormalTextColor // confirm button normal text color
+    * @param confirmButtonNormalStrokeColor // confirm button normal stroke color
+    * @param confirmButtonPressedColor // confirm button pressed color
+    * @param confirmButtonPressedTextColor // confirm button pressed text color
+    * @param confirmButtonPressedStrokeColor // confirm button pressed stroke color
+    * @param cancelButtonNormalColor // cancel button normal color
+    * @param cancelButtonNormalTextColor // cancel button normal text color
+    * @param cancelButtonNormalStrokeColor // cancel button normal stroke color
+    * @param cancelButtonPressedColor // cancel button pressed color
+    * @param cancelButtonPressedTextColor // cancel button pressed text color
+    * @param cancelButtonPressedStrokeColor // cancel button pressed stroke color
+    * @param confirmAction // if has try again action as function
+    * @param cancelAction // if has dismiss action as function
 	
 ## Support thanks :
 
