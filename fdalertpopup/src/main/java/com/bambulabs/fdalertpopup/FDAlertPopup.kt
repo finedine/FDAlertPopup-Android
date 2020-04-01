@@ -10,7 +10,7 @@ import com.bambulabs.fdalertpopup.drawablebuilders.DrawableBuilder
 import kotlinx.android.synthetic.main.dialog_errors.view.*
 import kotlin.math.min
 
-class FDAlertPopup constructor(internal var activity: AppCompatActivity) {
+class FDAlertPopup constructor(private var activity: AppCompatActivity) {
 
     /**
      * Configurations
