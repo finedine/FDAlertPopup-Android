@@ -39,6 +39,7 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
 
     private var resource: Int? = null
     private var lottieResource: Int? = null
+    private var lottieLoop: Boolean? = false
     private var titleText: String? = null
     private var contentText: String? = null
     private var confirmButtonText: String? = null
@@ -66,6 +67,11 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
 
     fun setLottieResource(lottieResource: Int): FDAlertPopup {
         this.lottieResource = lottieResource
+        return this
+    }
+
+    fun setLottieLoop(lottieLoop: Boolean): FDAlertPopup {
+        this.lottieLoop = lottieLoop
         return this
     }
 
@@ -239,6 +245,12 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
                         0
                     )
                     constraintSet.applyTo(customLayout.parentView)
+                }
+
+                lottieLoop?.let {
+                    if (it) {
+                        customLayout.animation_view.loop(true)
+                    }
                 }
 
                 if (titleText.isNullOrEmpty())
