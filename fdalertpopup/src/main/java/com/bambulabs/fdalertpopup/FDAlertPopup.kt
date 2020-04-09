@@ -250,8 +250,8 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
 
                 lottieLoop?.let {
                     if (it) {
-                        customLayout.animation_view.layoutParams.width *= 2
-                        customLayout.animation_view.layoutParams.height *= 2
+                        customLayout.animation_view.layoutParams.width += 300
+                        customLayout.animation_view.layoutParams.height += 25
 
                         customLayout.animation_view.requestLayout()
                         customLayout.animation_view.loop(true)
