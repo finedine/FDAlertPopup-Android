@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         FDAlertPopup(this)
             .setTitleText("Feedback was sent successfully")
-            .setLottieResource(R.raw.lottiesuccess)
+            .setLottieResource(R.raw.loading)
             .setLottieLoop(true)
             .show()
 
@@ -41,13 +41,9 @@ class MainActivity : AppCompatActivity() {
     private fun showCustomPopupWithResource() {
 
         FDAlertPopup(this)
-            .setResource(R.drawable.successicon)
-            .setTitleText("Title")
-            .setContentText("Content")
-            .setConfirmButtonText("Confirm")
-            .setCancelButtonText("Cancel")
-            .setConfirmAction { showCustomPopupWithLottie() }
-            .setCancelAction {  }
+            .setTitleText("Feedback was sent successfully")
+            .setLottieResource(R.raw.lottiesuccess)
+            .setLottieLoop(true)
             .show()
 
     }

@@ -5,6 +5,7 @@ import android.view.*
 import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import com.bambulabs.fdalertpopup.drawablebuilders.DrawableBuilder
 import kotlinx.android.synthetic.main.dialog_errors.view.*
@@ -249,6 +250,10 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
 
                 lottieLoop?.let {
                     if (it) {
+                        customLayout.animation_view.layoutParams.width *= 2
+                        customLayout.animation_view.layoutParams.height *= 2
+
+                        customLayout.animation_view.requestLayout()
                         customLayout.animation_view.loop(true)
                     }
                 }
