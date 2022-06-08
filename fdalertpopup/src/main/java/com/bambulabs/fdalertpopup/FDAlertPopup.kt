@@ -58,6 +58,8 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
     private var cancelButtonPressedColor: Int? = null
     private var cancelButtonPressedTextColor: Int? = null
     private var cancelButtonPressedStrokeColor: Int? = null
+    private var confirmButtonRound: Boolean? = false
+    private var confirmButtonRadius: Float? = 0f
     private var confirmAction: (() -> Unit)? = null
     private var cancelAction: (() -> Unit)? = null
 
@@ -158,6 +160,16 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
 
     fun setCancelButtonPressedStrokeColor(color: Int): FDAlertPopup {
         this.cancelButtonNormalStrokeColor = color
+        return this
+    }
+
+    fun setConfirmButtonRound(round: Boolean): FDAlertPopup {
+        this.confirmButtonRound = round
+        return this
+    }
+
+    fun setConfirmButtonRadius(radius: Float): FDAlertPopup {
+        this.confirmButtonRadius = radius
         return this
     }
 
@@ -285,6 +297,16 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
                 }
                 confirmButtonPressedStrokeColor?.let {
                     customLayout.confirmButton.setPressedStrokeColor(it)
+                }
+
+                confirmButtonRound?.let {
+                    customLayout.confirmButton.setRound(it)
+                    customLayout.cancelButton.setRound(it)
+                }
+
+                confirmButtonRadius?.let {
+                    customLayout.confirmButton.setRadius(it)
+                    customLayout.cancelButton.setRadius(it)
                 }
 
                 if (cancelButtonText.isNullOrEmpty() && confirmButtonText.isNullOrEmpty()) {

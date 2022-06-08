@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        showCustomPopupWithLottie()
+        showCustomPopupWithResource()
 
     }
 
@@ -41,8 +41,9 @@ class MainActivity : AppCompatActivity() {
     private fun showCustomPopupWithResource() {
 
         FDAlertPopup(this)
-            .setTitleText("Feedback was sent successfully")
-            .setLottieResource(R.raw.lottiesuccess)
+            .setTitleText("1/3")
+            .setContentText("Downloading Venue Configurations...")
+            .setLottieResource(R.raw.loading)
             .setLottieLoop(true)
             .show()
 
