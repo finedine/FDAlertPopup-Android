@@ -234,6 +234,13 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
                     cancelButtonPressedStrokeColor?.let {
                         customLayout.cancelButton.setPressedStrokeColor(it)
                     }
+                    confirmButtonRound?.let {
+                        customLayout.cancelButton.setRound(it)
+                    }
+
+                    confirmButtonRadius?.let {
+                        customLayout.cancelButton.setRadius(it)
+                    }
                 }
 
                 customLayout.confirmButton.text = confirmButtonText
@@ -301,12 +308,10 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
 
                 confirmButtonRound?.let {
                     customLayout.confirmButton.setRound(it)
-                    customLayout.cancelButton.setRound(it)
                 }
 
                 confirmButtonRadius?.let {
                     customLayout.confirmButton.setRadius(it)
-                    customLayout.cancelButton.setRadius(it)
                 }
 
                 if (cancelButtonText.isNullOrEmpty() && confirmButtonText.isNullOrEmpty()) {
