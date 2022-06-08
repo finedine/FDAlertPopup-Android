@@ -58,8 +58,8 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
     private var cancelButtonPressedColor: Int? = null
     private var cancelButtonPressedTextColor: Int? = null
     private var cancelButtonPressedStrokeColor: Int? = null
-    private var confirmButtonRound: Boolean? = false
-    private var confirmButtonRadius: Float? = 0f
+    private var confirmButtonRound: Boolean? = true
+    private var confirmButtonRadius: Float? = null
     private var confirmAction: (() -> Unit)? = null
     private var cancelAction: (() -> Unit)? = null
 
