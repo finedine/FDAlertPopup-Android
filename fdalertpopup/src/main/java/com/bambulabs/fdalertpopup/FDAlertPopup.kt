@@ -41,6 +41,7 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
     private var resource: Int? = null
     private var lottieResource: Int? = null
     private var lottieLoop: Boolean? = false
+    private var fullScreen: Boolean? = false
     private var titleText: String? = null
     private var contentText: String? = null
     private var confirmButtonText: String? = null
@@ -75,6 +76,11 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
 
     fun setLottieLoop(lottieLoop: Boolean): FDAlertPopup {
         this.lottieLoop = lottieLoop
+        return this
+    }
+
+    fun setFullScreen(fullScreen: Boolean): FDAlertPopup {
+        this.fullScreen = fullScreen
         return this
     }
 
@@ -330,6 +336,15 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
                 dialog?.window?.setBackgroundDrawable(drawable)
                 dialog?.window?.requestFeature(Window.FEATURE_NO_TITLE)
                 dialog?.window?.setGravity(Gravity.CENTER)
+
+                if (fullScreen!!) {
+                    dialog?.window?.setFlags(
+                        WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                        WindowManager.LayoutParams.FLAG_FULLSCREEN
+                    )
+                    dialog?.window?.decorView?.systemUiVisibility =
+                        View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                }
 
                 dialog?.setCancelable(false)
                 dialog?.setCanceledOnTouchOutside(false)
