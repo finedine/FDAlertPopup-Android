@@ -22,6 +22,8 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
      * @param confirmButtonText confirm button text
      * @param cancelButtonText cancel button text
      * @param popupBackgroundColor popup background color
+     * @param titleTextColor popup title text color
+     * @param contentTextColor popup content text color
      * @param confirmButtonNormalColor confirm button normal color
      * @param confirmButtonNormalTextColor confirm button normal text color
      * @param confirmButtonNormalStrokeColor confirm button normal stroke color
@@ -47,6 +49,8 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
     private var confirmButtonText: String? = null
     private var cancelButtonText: String? = null
     private var popupBackgroundColor: Int = Color.WHITE
+    private var titleTextColor: Int? = null
+    private var contentTextColor: Int? = null
     private var confirmButtonNormalColor: Int? = null
     private var confirmButtonNormalTextColor: Int? = null
     private var confirmButtonNormalStrokeColor: Int? = null
@@ -91,6 +95,16 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
 
     fun setContentText(text: String?): FDAlertPopup {
         this.contentText = text
+        return this
+    }
+
+    fun setTitleTextColor(color: Int): FDAlertPopup {
+        this.titleTextColor = color
+        return this
+    }
+
+    fun setContentTextColor(color: Int): FDAlertPopup {
+        this.contentTextColor = color
         return this
     }
 
@@ -292,6 +306,14 @@ class FDAlertPopup constructor(private var activity: AppCompatActivity) {
                     customLayout.content.visibility = View.GONE
                 else
                     customLayout.content.text = contentText
+
+                titleTextColor?.let {
+                    customLayout.titleText.setTextColor(it)
+                }
+
+                contentTextColor?.let {
+                    customLayout.content.setTextColor(it)
+                }
 
                 confirmButtonNormalColor?.let {
                     customLayout.confirmButton.setNormalBackgroundColor(it)
